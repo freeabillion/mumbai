@@ -1,0 +1,262 @@
+﻿v 1.9.3 – 06 April 2017
+- Added: Local Time module for showing event time based on visitor timezone.
+- Added: an option to enable removing MEC Data on uninstall (Disabled by default).
+- Added: Guest Email and Name to the FES.
+- Added: limitation to attendees module.
+- Improved:Show separated price per ticket instead of total price in booking backend menu.
+- Improved: MEC update system to don't run when not needed in order to speed up the initialization.
+- Fixed: an issue on adding fees price to the booking.
+- Fixed: an issue in Custom Days Repeat System.
+- Fixed: an issue on exporting exceptional days to Google Calendar.
+
+v 1.9.2 – 15 March 2017
+- Added: An ability to import old events from Google Calendar.
+- Fixed: A translation issue.
+- Fixed: A GMT date issue on Google Calendar and iCal export.
+- Fixed: An issue on showing selected color in Frontend Event Submission.
+- Fixed: Some front end submisssion ui issue.
+
+v 1.9.1 – 13 March 2017
+- Improved: RTL style.
+- Fixed: An issue with polylang plugin.
+- Fixed: A PHP notice in countdown module.
+- Added: Swedish language files (Thanks to Mats).
+
+v 1.9.0 – 6 March 2017
+
+- Added: Auto Synchronization for Google Calendar Import/Export and Facebook Import.
+- Added: MEC transaction ID into Stripe description.
+- Added: Organizer, Locations, Hourly Schedule, Tickets, Booking Options, Fess/Taxes sections to the Frontend Event Submission.
+- Added: ability to disable/enable FES sections from settings menu.
+- Fixed: Some issues on Google Calendar and Facebook Calendar Import and Synchronization.
+- Fixed: An issue in countdown skin.
+
+v 1.8.8 – 26 February 2017
+
+- Added: Slider Shortcode into predefined shortcodes on plugin activation.
+- Hided: organizer element on modern layout if it's not set.
+- Fixed: some issues on adding/editing locations and organizers.
+- Fixed: owl carousel issue on full calendar skin.
+- Fixed: Css issues and countdown issues.
+
+v 1.8.6 – 23 February 2017
+- Fixed: JS and CSS Issues.
+
+v 1.8.5 - 22 February 2017
+
+- Added: Ability to import facebook event image as featured image of event in Facebook Importer.
+- Added: New auto update and verification
+- Added: %%attendee_full_info%% to booking notification email.
+- Added: Carousel and slider view auto play time option.
+- Added: mailto: and tel: option for organizer email and tel in the single event page.
+- Added: Polish language files (Thanks to Łukasz Szmigiel).
+- Improved: Settings Form Security.
+- Fixed: An XSS issue on the custom styles.
+- Fixed: Default issue for single event layout.
+- Fixed: A PHP notice issue on single event page.
+- Fixed: Issue of not setting Customer on WooCommerce Order when guest user is paying.
+- Fixed: Issue of custom days' events for showing main date of event.
+- Fixed: Issue of not converting notification new lines to paragraph in MEC Notification system.
+- Fixed: 2 notices on PHP7.
+- Fixed: Responsive of sliders issues.
+- Fixed: Option for date suffix.
+- Fixed: Next Event Module.
+- Fixed: Flip countdown issues for days more than hundred.
+- Fixed: Countdown issues on edge / IE.
+- Fixed: Countdown reponsive.
+- Fixed: Event title is mandatory on "Frontend Event Submission" form.
+- Fixed: A conflict between MEC and WC Strip gateway on Stripe payment form.
+- Fixed: Load Google Maps assets (JS and CSS) only when needed instead of loading them always to optimize the speed.
+- Fixed: Load OWL assets (JS and CSS) only when needed instead of loading them always to optimize the speed.
+- Fixed: A translation issue.
+- Fixed: HTML validation.
+- Cleanup: On frontend.js codes.
+- Updated: Brazilian portuguese language (Thanks to Rodrigues Santana).
+- Updated: German language (Thanks to Jürgen König).
+
+v 1.8.0 - 7 February 2017
+
+- Added: WooCommerce Integration.
+- Added: Next Event module to be shown on single event page.
+- Added: A new style named "Modern" for single events page.
+- Added: Full Slider skin.
+- Added: Time options to "Frontend Event Submission".
+- Added: Ability to set title for gateways to be shown in the checkout form.
+- Added: Activate the only gateway in the checkout form if only 1 gateway is enabled.
+- Fixed: Fixed an issue in booking dates when some dates excluded from event occurrence dates.
+- Fixed: Tags Archive Page issue by adding mec-events CPT into the query.
+- Fixed: Issue of changing year when ignore date option is selected.
+- Fixed: End date issue when an occurrence is selected.
+- Fixed: Some UTC date issues in Add to Google Calendar button and ICS download button in single event page.
+- Updated: German language (Thanks to Jurgen).
+
+v 1.7.0 - 18 January 2017
+
+- Added: BuddyPress Integration.
+- Added: Showing Attendees list on event details page.
+- Added: Add an activity to user BuddyPress profile after booking a new event.
+- Added: Stripe Payment Gateway.
+- Added: Mailchimp integration to add bookers' data into a certain list with a certain subscription status.
+- Added: New flip countdown skin added.
+- Added: Event note option for frontend event submission.
+- Added: Use Post Excerpt if exists instead of post content in list skin.
+- Added: %%event_note%% placeholder for new event notification.
+- Added: An ability to place %%event_title%% into title of "admin notification" and "new event" notifications.
+- Fixed: Issue about http_build_query function in some servers.
+- Improve: Front end submission UX.
+- Improve: Search month and date can be ignored.
+
+v 1.6.0 - 3 January 2017
+
+- Added: Google Calendar Integration.
+- Added: Ability to import events from Google Calendar.
+- Added: Ability to add MEC events directly to Google Calendar.
+- Added: Facebook import feature for importing events from a certain Facebook page.
+- Added: Russian language. (Thanks to Runa Simi Tours)
+- Added: An ability to change countdown main color.
+- Added: Ability to export filtered events into CSV, MS Excel, JSON and XML formats.
+- Added: Ability to export all events into CSV, MS Excel, JSON and XML formats.
+- Added: Ability to change weekdays and weekends.
+- Added: A new option to show event date in single event page based on referred date instead of next occurrence.
+- Added: Target window option for "Read More Link".
+- Added: Thank you page for opening after booking.
+- Added: An ability to send "Booking Notification" and "Admin Notification" to event organizer.
+- Updated: Sorting system of events.
+- Updated: Search form in all skins.
+- Fixed: An issue in setting full calendar layout as archive skin.
+- Fixed: Issue of showing expired events in map skin.
+- Fixed: An Issue about next/previous month navigator in monthly, weekly and daily skins.
+- Fixed: Issue of 6th week in weekly view.
+
+v 1.5.1 - 15 December 2016
+
+- Fixed: Countdown Issues.
+
+v 1.5.0 - 14 December 2016
+
+- Added: Carousel skin with 3 different styles.
+- Added: Countdown skin with 3 different styles.
+- Added: Turkish language. (Thanks to Toptan Bilgisayar)
+- Added: Brazilian Portuguese language. (Thanks to Rodriguez)
+- Added: Italian language. (Thanks to Michele D'Amico)
+- Added: An ability to include custom fields into CSV and MS Excel exports.
+- Added: Ability to change date format of booking module.
+- Added: Date format option for cover, single and map skins.
+- Added: Date format option for carousel, list and grid skins.
+- Added: An ability to the event cost to insert texts instead of number.
+- Added: A new event repeat option for selecting completely custom days.
+- Added: An ability to hide regular events on some certain dates.
+- Added: a new option for increasing maximum dates in booking form.
+- Added: Mandatory option for check-box and radio buttons in booking form.
+- Added: Ability to change booking status form in booking details page.
+- Updated: Front-end Submission Form.
+- Updated: Change sort method of locations and organizers to alphabetical.
+- Fixed: An issue in showing event description in the skins.
+- Fixed: An issue in search form.
+
+v 1.4.0 - 25 October 2016
+
+- Added: Full Calendar new skin.
+- Added: Search Form ability for all MEC skins.
+- Added: Ability to search by category, location, organizer and labels to the search form.
+- Added: Text Search option to search form.
+- Added: Year and Month filter to search form.
+- Added: Ability to disable search fields and search form completely.
+- Added: Ability to disable archive event page and replace a normal WordPress page instead.
+- Added: Some new options in "Frontend Event Submission" such as categories, labels and event color.
+- Added: Optional more info link.
+- Updated: List and Grid skins.
+- Fixed: An issue about using two different protocols for backend and frontend of WordPress.
+
+v 1.3.6 - 19 October 2016
+
+- Added: German language. (Thanks to Jens)
+
+v 1.3.5 - 11 October 2016
+
+- Added: Ability to upload featured image for events by guest users.
+- Added: Lightbox for showing details of events on map skin.
+- Added: Auto Update feature by purchase code and security token.
+- Added: Duplicate event feature.
+- Added: A new option for showing only first day of multiple day events on list/grid skins.
+- Updated: "Front-end Event Submission" structure.
+- Updated: Map skin interfaces.
+- Fixed: Issue of not showing end date of multiple day events next to start date in single event page and other skins.
+- Fixed: Some issues on notifications.
+- Fixed: Issue of removing featured image.
+- Fixed: Issue of showing past events when "Show Past Event" option is disabled.
+
+v 1.3.0 - 3 October 2016
+
+- Added: French language. (Thanks to Chris van den Berg)
+- Added: Dutch (Netherlands) language. (Thanks to Mario Leblanc)
+- Added: Category archive skin selector for showing desired skin in category archive pages.
+- Added: New colorful style for grid skin.
+- Added: An option for disabling loading of Google Maps API for fixing conflicts with other third party themes/plugins.
+- Added: A pre-loader style for booking button.
+- Fixed: Social buttons issue on iphone.
+- Fixed: Issue of empty booking form.
+- Fixed: An issue in Google fonts.
+
+v 1.2.5 - 28 September 2016
+
+- Added: A new repeat type for repeating events on certain weekdays.
+- Added: An option for showing only first day of multiple day events on the calendars instead of all days.
+- Fixed: Issue of invalid currency code for bookings.
+- Fixed: An issue in "Add to Google Calendar" button for setting correct time-zone.
+- Fixed: Issue of showing all days of multiple day events in list/grid skins.
+- Fixed: Calendar/Monthly skin issue.
+
+v 1.2.1 - 26 September 2016
+
+- Fixed: Issue of count-down module in Safari browser.
+- Fixed: An issue for showing wrong occurrence date for events.
+
+v 1.2.0 - 25 September 2016
+
+- Added: A new placeholder for showing full attendee data such as name, email and registration form data in the "admin notification email".
+- Added: 24 hours format is added to backend form and "Front-end Submission Form" as well.
+- Added: "Auto Confirm" feature for bookings.
+- Added: "Hide end time" feature for events.
+- Added: Booking form builder is completely re-developed and optimized.
+- Added: Tel and Email fields for Booking form builder.
+- Added: Show registration form data in booking view page in back-end.
+- Fixed: All day time issue on some skins.
+- Fixed: Booking form validation issue.
+- Fixed: Date localization issues on daily view.
+- Fixed: Issue of hiding notification tab when booking feature is disabled.
+- Updated: Applied some clean coding.
+- Updated: Backend Design.
+
+v 1.1.0 - 19 September 2016
+
+- Added: "Front-end Event Submission" feature. Now all of your website users are able to post/manage their events from front-end.
+- Added: Google re-captcha feature for protecting your website more on booking module and "Front-end Event Submission" feature.
+- Added: A new hour format for showing hours based on 24 hour format on front-end in addition to 12 hour format.
+- Added: Hundreds of currencies for improving internationalization of Modern Events Calendar.
+- Updated: Backend UI design
+- Fixed: Some issues on booking module.
+- Fixed: Date localization issues. Now, month names, week days etc shows based on current language.
+- Fixed: Social icons in grid view
+
+v 1.0.3 - 11 September 2016
+
+- Added: A new feature for changing mec-category slug/permalink to the desired slug/permalink.
+- Fixed: A time-zone issue on countdown module.
+- Fixed: Some jQuery conflicts.
+
+v 1.0.2 - 07 September 2016
+
+- Fixed: Some conflicts with other plugins.
+- Fixed: Broken links on support menu.
+
+v 1.0.1 - 06 September 2016
+
+- Fixed: No event issue on weekly skin.
+- Fixed: "0000-00-00" issue for event end date.
+- Fixed: Some PHP notices.
+- Fixed: Post reset issue on Map skin.
+
+v 1.0.0 - 01 September 2016
+
+- Initial Release

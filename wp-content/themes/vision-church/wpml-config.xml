@@ -1,0 +1,86 @@
+<wpml-config>
+	<admin-texts>
+		<key name="vision_church_options">
+			<key name="vision_church_space_before_head" />
+			<key name="vision_church_space_before_body" />
+			<key name="vision_church_slogan" />
+			<key name="vision_church_header_address" />
+			<key name="vision_church_header_phone" />
+			<key name="vision_church_header_email" />
+			<key name="vision_church_topbar_login_text" />
+			<key name="vision_church_topbar_address" />
+			<key name="vision_church_topbar_phone" />
+			<key name="vision_church_topbar_email" />
+			<key name="vision_church_topbar_button_text" />
+			<key name="vision_church_topbar_text" />
+			<key name="vision_church_blog_page_title" />
+			<key name="vision_church_blog_readmore_text" />
+			<key name="vision_church_footer_subscribe_text" />
+			<key name="vision_church_footer_copyright" />
+			<key name="vision_church_404_text" />
+			<key name="vision_church_woo_shop_title" />
+			<key name="vision_church_woo_product_title" />
+		</key>
+	</admin-texts>
+	<custom-types>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">product</custom-type>
+		<custom-type translate="1">revslider</custom-type>
+		<custom-type translate="1">essential_grid</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio_category</taxonomy>
+		<taxonomy translate="1">product_type</taxonomy>
+		<taxonomy translate="1">product_cat</taxonomy>
+		<taxonomy translate="1">product_tag</taxonomy>
+		<taxonomy translate="1">product_shipping_class</taxonomy>
+		<taxonomy translate="1">essential_grid_category</taxonomy>
+	</taxonomies>
+	<custom-fields>
+		<custom-field action="translate">vision_church_views</custom-field>
+		<custom-field action="translate">eg-clients-icon</custom-field>
+		<custom-field action="translate">eg-clients-icon-dark</custom-field>
+		<custom-field action="translate">eg-demogrid-link</custom-field>
+		<custom-field action="translate">eg-pricetable-buy-url</custom-field>
+		<custom-field action="translate">eg-pricetable-line1</custom-field>
+		<custom-field action="translate">eg-pricetable-line2</custom-field>
+		<custom-field action="translate">eg-pricetable-line3</custom-field>
+		<custom-field action="translate">eg-pricetable-line4</custom-field>
+		<custom-field action="translate">eg_html5_ratio</custom-field>
+		<custom-field action="translate">eg_settings_custom_meta_element</custom-field>
+		<custom-field action="translate">eg_settings_custom_meta_setting</custom-field>
+		<custom-field action="translate">eg_settings_custom_meta_skin</custom-field>
+		<custom-field action="translate">eg_settings_custom_meta_style</custom-field>
+		<custom-field action="translate">eg_soundcloud_ratio</custom-field>
+		<custom-field action="translate">eg_sources_html5_mp4</custom-field>
+		<custom-field action="translate">eg_sources_html5_ogv</custom-field>
+		<custom-field action="translate">eg_sources_html5_webm</custom-field>
+		<custom-field action="translate">eg_sources_iframe</custom-field>
+		<custom-field action="translate">eg_sources_image</custom-field>
+		<custom-field action="translate">eg_sources_revslider</custom-field>
+		<custom-field action="translate">eg_sources_soundcloud</custom-field>
+		<custom-field action="translate">eg_sources_vimeo</custom-field>
+		<custom-field action="translate">eg_sources_wistia</custom-field>
+		<custom-field action="translate">eg_sources_youtube</custom-field>
+		<custom-field action="translate">eg_vimeo_ratio</custom-field>
+		<custom-field action="translate">eg_wistia_ratio</custom-field>
+		<custom-field action="translate">eg_youtube_ratio</custom-field>
+		<custom-field action="translate">enclosure</custom-field>
+		<custom-field action="translate">restrict_roles</custom-field>
+		<custom-field action="translate">slide_template</custom-field>
+		<custom-field action="translate">title_sidebar</custom-field>
+		<custom-field action="translate">total_sales</custom-field>
+		<custom-field action="translate">vc_teaser</custom-field>
+		<custom-field action="translate">wdc_hide_addtocart</custom-field>
+		<custom-field action="translate">webnus_views</custom-field>
+		<custom-field action="translate">wp_review_bgcolor1</custom-field>
+		<custom-field action="translate">wp_review_bgcolor2</custom-field>
+		<custom-field action="translate">wp_review_bordercolor</custom-field>
+		<custom-field action="translate">wp_review_color</custom-field>
+		<custom-field action="translate">wp_review_desc_title</custom-field>
+		<custom-field action="translate">wp_review_fontcolor</custom-field>
+		<custom-field action="translate">wp_review_location</custom-field>
+	</custom-fields>
+</wpml-config>
+
+

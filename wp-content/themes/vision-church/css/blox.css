@@ -1,0 +1,266 @@
+	/*----------------------------------
+	
+	Theme Name: Vision Church
+	--------------------------
+		
+	/* #Full width Sections + Parallax + Video Background Stylesheet
+	================================================================= */
+	
+	.blox {
+		clear: both;
+		position: relative;
+		background-position: center;
+	}
+	.blox.wpb_column {
+		clear: none;
+		margin-bottom: 0;
+	}
+	.blox.nopad {
+		padding: 0;
+		margin: 0;
+	}
+	#wrap .blox.full-container .container {
+		padding-left: 0;
+		padding-right: 0;
+		width: auto;
+		max-width: none;
+	}
+	.blox.nopad-cols .wpb_row .wpb_column.vc_column_container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.blox.dark .nonetextshadow * {
+		text-shadow: none;
+	}
+	.dark.blackbox {
+		background: #25272a;
+		margin-top: -1px;
+	}
+	.blox.dark hr {
+		border-color: rgba(255, 255, 255, 0.2);
+	}
+	.blox.dark div, .blox.dark h1, .blox.dark h2, .blox.dark h3, .blox.dark h4, .blox.dark h5, .blox.dark h6, .blox.dark p {
+		color: #fff;
+	}
+	.blox.dark a.button.white.bordered-bot, .slides-content.dark a.button.white.bordered-bot {
+		color: #fff;
+		background: none;
+		border-color: #fff;
+	}
+	.blox.dark a.button.white.bordered-bot:hover, .slides-content.dark a.button.white.bordered-bot:hover {
+		color: #222;
+		background: #fff !important;
+	}
+	.blox.dark a.button.black.bordered-bot, .slides-content.dark a.button.black.bordered-bot {
+		color: #000;
+	}
+	.blox.dark a.button.black:hover, .slides-content.dark a.button.black:hover {
+		color: #000;
+		background: #fff;
+	}
+	.blox a.button.gray, .blox a.button.bordered-bot.gray {
+		color: #000;
+		border-color: #000;
+		border-radius: 0;
+		letter-spacing: 0;
+	}
+	.blox.dark a.button.gray {
+		color: #222;
+	}
+	.blox.dark a.button.gray.bordered-bot {
+		background: none;
+		color: #fff;
+		border-color: #fff;
+	}
+	.blox.dark a.button.gray:hover {
+		color: #000;
+		background: #fff;
+		box-shadow: none;
+	}
+	.blox.dark .magic-link a {
+		color: #fff;
+	}
+	.blox.dark p {
+		color: rgba(255, 255, 255, 0.97);
+	}
+	.blox.parallax-sec {
+		padding: 0;
+		background-position: center bottom;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		min-height: 300px;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1920px;
+		background-size: cover;
+	}
+	.parallax-sec article {
+		position: relative;
+	}
+	.parallax-sec .blox, .parallax-sec .blox.dark {
+		background: none;
+	}
+	/* #Max Overlay
+	================================================== */
+	.max-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-repeat: repeat;
+	}
+	.max-pat, .max-pat2, .max-alpha, .max-alpha2 {
+		position: relative;
+	}
+	.max-pat .max-overlay {
+		background-image: url(../images/pattern.png);
+	}
+	.max-pat2 .max-overlay {
+		background-image: url(../images/pattern2.png);
+	}
+	.max-alpha .max-overlay {
+		background-color: rgba(33, 65, 83, 0.5);
+	}
+	.max-alpha2 .max-overlay {
+		background-color: rgba(8, 22, 31, 0.8);
+	}
+	.blox .container {
+		position: relative;
+	}
+	/* #Video Background
+	================================================== */	
+	.video-sec {
+		position: relative;
+		overflow: hidden;
+		padding: 0!important
+	}
+	.video-sec .pattern-bg {
+		background-image: url(../images/pattern.png);
+		opacity: 0.5;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		padding: 45px 0 43px;
+		clear: both;
+		background-repeat: repeat;
+		position: absolute;
+	}
+	.video-sec .dark-content, .video-sec .light-content {
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.23);
+		padding: 45px 0 43px;
+		z-index: 2;
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	.video-sec .dark-content {
+		color: #fff;
+	}
+	.video-sec .light-content {
+		text-shadow: none;
+	}
+	.video-sec .slight {
+		color: #292929;
+	}
+	.video-sec .mejs-container {
+		position: absolute;
+		z-index: 0;
+	}
+	.video-sec .max-video {
+		position: relative;
+	}
+	.video-sec .slides-content {
+		position: relative;
+		z-index: 2;
+		background: transparent;
+		min-height: 300px;
+		text-align: center;
+	}
+	.slides-content.dark * {
+		color: #fff;
+	}
+	.slides-content.dark input, .slides-content.dark select, .slides-content.dark textarea, .slides-content.dark option {
+		color: #777;
+	}
+	/* youtube video bg */
+	.youtube-wrap {
+		float: none;
+		clear: both;
+		width: 100%;
+		position: absolute;
+		padding-bottom: 56.25%; /* 16:9 */
+		height: 0;
+		overflow: hidden;
+	}
+	.youtube-wrap iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	
+	/* #Media Queries
+	================================================== */
+	
+	@media only screen and (max-width: 960px) {
+		.parallax-sec, .video-sec {
+			height: auto !important;
+			background-attachment: scroll;
+			background-repeat: repeat-y !important;
+		}
+		.homedark {
+			height: auto !important;
+			background-size: cover;
+		}
+		.slogan h1 {
+			font-size: 41px;
+			line-height: 53px;
+		}
+		.aboutdark .slogan {
+			position: relative;
+			right: auto;
+			margin: 0 auto;
+			padding: 3%;
+		}
+		.video-sec .max-video {
+			position: inherit;
+		}
+		.blox.parallax-sec {
+			background-position: center center !important;
+		}
+	}
+	
+	@media only screen and (max-width: 767px) {
+		.blox.dark, .blox.gray {
+			height: auto !important;
+		}
+		.blox.half-white {
+			background-image: none !important;
+			background: #fff !important;
+		}
+	}
+	
+	@media (min-width: 961px) {
+		.youtube-wrap {
+			z-index: 1;
+		}
+		.youtube-wrap {
+			float: none;
+			clear: both;
+			width: 100%;
+			position: relative;
+			padding-bottom: 56.25%;
+			height: 0;
+		}
+		.youtube-wrap iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	
+	/* ------- end ------------ */

@@ -1,0 +1,140 @@
+<?php
+vc_map( array(
+	'name'			=> esc_html__( 'Grand Title', 'vision-church' ),
+	'base'			=> 'title_p_text',
+	'description'	=> esc_html__( 'Grand Title', 'vision-church' ),
+	'icon'			=> 'title_p_text',
+	'category'		=> esc_html__( 'Webnus Shortcodes', 'vision-church' ),
+	'params'		=> array(
+		array(
+			'type'				=> 'dropdown',
+			'heading'			=> esc_html__( 'Type', 'vision-church' ),
+			'param_name'		=> 'type',
+			'value'				=> array(
+				'Type 1'	=> '1',
+				'Type 2'	=> '2',
+				'Type 3'	=> '3',
+			),
+			'description'		=> esc_html__( 'Choose your type', 'vision-church'),
+		),
+		array(
+			'type'				=> 'dropdown',
+			'heading'			=> esc_html__( 'Text Align', 'vision-church' ),
+			'param_name'		=> 'align',
+			'value'				=> array(
+				'none'			=> '',
+				'Left'		=> 'alignleft',
+				'Right'		=> 'alignright',
+				'Center'	=> 'aligncenter',
+				),
+			'description'		=> esc_html__( 'Choose your type', 'vision-church'),
+		),
+		array(
+			'type'				=> 'textfield',
+			'heading'			=> esc_html__('Top Title', 'vision-church'),
+			'param_name'		=> 'top_title',
+			'value'				=> '',
+			'description'		=> esc_html__( 'Please write top title', 'vision-church'),
+			'edit_field_class'	=> 'vc_col-sm-6',
+			'dependency'		=> array(
+				'element' => 'type',
+				'value'   => array( '1', '3', ),
+			),
+		),
+		array(
+			'type'				=> 'colorpicker',
+			'heading'			=> esc_html__('Color for Top Title', 'vision-church'),
+			'param_name'		=> 'top_title_color',
+			'value'				=> '',
+			'description'		=> esc_html__( 'Select Top Title color', 'vision-church'),
+			'edit_field_class'	=> 'vc_col-sm-6',
+			'dependency'		=> array(
+				'element' => 'type',
+				'value'   => array( '1', '3', ),
+			),
+		),
+		array(
+			'type'				=> 'textfield',
+			'heading'			=> esc_html__('Main Title - part 1', 'vision-church'),
+			'param_name'		=> 'top_title_part_1',
+			'value'				=> '',
+			'description'		=> esc_html__( 'Please write Main Title - part 1', 'vision-church'),
+			'edit_field_class'	=> 'vc_col-sm-6',
+			'dependency'		=> array(
+				'element' => 'type',
+				'value'   => array( '1', '3', ),
+			),
+		),
+		array(
+			'type'				=> 'textfield',
+			'heading'			=> esc_html__('Main Title - part 2', 'vision-church'),
+			'param_name'		=> 'top_title_part_2',
+			'value'				=> '',
+			'description'		=> esc_html__( 'Please write Main Title - part 2', 'vision-church'),
+			'edit_field_class'	=> 'vc_col-sm-6',
+			'dependency'		=> array(
+				'element' => 'type',
+				'value'   => array( '1', '3', ),
+			),
+		),
+		array(
+			'type'				=> 'colorpicker',
+			'heading'			=> esc_html__('Color for Main Title - part 1', 'vision-church'),
+			'param_name'		=> 'top_title_part_1_color',
+			'value'				=> '',
+			'description'		=> esc_html__( 'Select Main Title - part 1 color', 'vision-church'),
+			'edit_field_class'	=> 'vc_col-sm-6',
+			'dependency'		=> array(
+				'element' => 'type',
+				'value'   => array( '1', '3', ),
+			),
+		),
+		array(
+			'type'				=> 'colorpicker',
+			'heading'			=> esc_html__('Color for Main Title - part 2', 'vision-church'),
+			'param_name'		=> 'top_title_part_2_color',
+			'value'				=> '',
+			'description'		=> esc_html__( 'Select Main Title - part 2 color', 'vision-church'),
+			'edit_field_class'	=> 'vc_col-sm-6',
+			'dependency'		=> array(
+				'element' => 'type',
+				'value'   => array( '1', '3', ),
+			),
+		),
+		array(
+			'type'				=> 'textfield',
+			'heading'			=> esc_html__('Top Title 2', 'vision-church'),
+			'param_name'		=> 'top_title_2',
+			'value'				=> '',
+			'description'		=> esc_html__( 'Please write top title', 'vision-church'),
+			'edit_field_class'	=> 'vc_col-sm-6',
+			'dependency'		=> array(
+				'element' => 'type',
+				'value'   => '2',
+			),
+		),
+		array(
+			'type'				=> 'textfield',
+			'heading'			=> esc_html__('Main Title', 'vision-church'),
+			'param_name'		=> 'main_title',
+			'value'				=> '',
+			'description'		=> esc_html__( 'Please write Main Title', 'vision-church'),
+			'edit_field_class'	=> 'vc_col-sm-6',
+			'dependency'		=> array(
+				'element' => 'type',
+				'value'   => '2',
+			),
+		),
+		array(
+			'type'				=> 'textarea',
+			'heading'			=> esc_html__('Content', 'vision-church'),
+			'param_name'		=> 'text_content',
+			'value'				=> '',
+			'description'		=> esc_html__( 'Please write Content', 'vision-church'),
+			'dependency'		=> array(
+				'element' => 'type',
+				'value'   => array( '1', '3', ),
+			),
+		),
+)
+) );
